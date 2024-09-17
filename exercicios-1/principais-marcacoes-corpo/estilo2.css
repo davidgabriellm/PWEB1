@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+div{
+    text-align: center;
+}
+.video-iframe{
+    margin-top: 3rem;
+}
+.video-iframe h2 {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.video-tag{
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7rem;
+}
+.video-tag h2 {
+    margin-bottom: 1rem;
+    text-align: center;
+    display: inline-block;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+footer{
+    display: flex;
+    margin: 2rem auto;
+    justify-content: center;
+}
